@@ -49,17 +49,21 @@
 - Fonctionnalités : 
   - Ajout une cache (Latitude/longitude préremplies via carte interactive)
   - Redirection vers la carte centrée sur une cache spécifique
-  - Modification ou suppression ses propres caches
+  - Modification ou suppression de ses propres caches
   - Saisie d’un code de 6 caractères pour valider une cache qui n'est pas à l'utilisateur
   - Une fois validée, possibilité de **noter** la cache (le vote peut être modifié ultérieurement)
 - Mise à jour automatique à chaque modification.
 
 ### `ranking.js`
 - Classements disponibles :
+
   **Top 3 des chercheurs** selon le nombre et la difficulté des caches trouvées
+
   **Top 3 des meilleures caches** selon leur score  
     - redirection vers `list` au clic.
+
   **Top 3 des caches les moins trouvées** selon le ratio "trouvailles / durée de vie"  
     - redirection vers `list` au clic.
+
 - Mise à jour automatique si en remonte la pile depuis `list`.
 
