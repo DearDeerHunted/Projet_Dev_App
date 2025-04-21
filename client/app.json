@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "GeocachingMobile",
+    "slug": "GeocachingMobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Geocaching.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/Geocaching.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Geocaching.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/Geocaching.png"
+    }
+  }
+}
